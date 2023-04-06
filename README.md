@@ -1,14 +1,11 @@
 ## FlowerCare App
-### [Live Site](https://grisha-careers-website-v4.onrender.com/)
 
-<img width="1061" alt="Grisha careers" src="https://user-images.githubusercontent.com/102157344/229812394-83742af3-5ea1-4f3d-ab20-aecfeac52cd1.png">
+<img width="761" alt="Снимок экрана 2023-04-06 в 11 50 11" src="https://user-images.githubusercontent.com/102157344/230328991-864cba6a-1379-4932-8dcf-6755c02e0065.png">
 
 ## Introduction
-This is a code repository for creating a company website page with a full display of available vacancies.
+  This is a code repository for creating a house flower care widget.
 
-You can register and submit an application, as well as constantly monitor its status.
-
-Anyone with Administrator rights can update the status of submitted applications.
+  Thanks to this application, the user can look at which side of the world it is preferable to place the flower selected by the User, when it is better to water it, depending on the date of the last watering (which the User sets himself) and in which month flowering can be expected.
 
 
 
