@@ -97,3 +97,6 @@ def insert_info(name,date): #Date from  "submit".
         db.commit()
         seccess= True
     return seccess
+
+
+
