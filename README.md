@@ -1,6 +1,6 @@
 ## FlowerCare App
 
-<img width="761" alt="Снимок экрана 2023-04-06 в 11 50 11" src="https://user-images.githubusercontent.com/102157344/230328991-864cba6a-1379-4932-8dcf-6755c02e0065.png">
+<img width="746" alt="flowerapp" src="https://user-images.githubusercontent.com/102157344/230329946-7ed9359c-0452-4883-a81a-c92244ffe58f.png">
 
 ## Introduction
   This is a code repository for creating a house flower care widget.
