@@ -43,6 +43,8 @@ python3 -m venv ./venv
 
 ```bash
 /tmp/<repo>/venv/bin/python /tmp/<repo>/app.py
+```
+
 
 
 ## How to create a Docker container for Tkinter application on **macOS**. 
@@ -62,3 +64,4 @@ In the same directory as the **Dockerfile**, the following command should be exe
 2. Run `export DISPLAY=:0`
 3. Run `xhost +localhost`
 4. Run `docker run -e DISPLAY=host.docker.internal:0 -u=$(id -u $USER):$(id -g $USER) -v $(pwd)/db:/app/db tkinter_in_docker `
+
