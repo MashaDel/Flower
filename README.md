@@ -43,3 +43,22 @@ python3 -m venv ./venv
 
 ```bash
 /tmp/<repo>/venv/bin/python /tmp/<repo>/app.py
+
+
+## How to create a Docker container for Tkinter application on **macOS**. 
+
+### Prerequisites.
+Install **XQuartz** .
+
+Launch XQuartz. 
+
+Under the XQuartz menu, select **Preferences**,go to the **Security** tab and ensure **Allow connections from network clients** is checked.
+
+**XQuartz** must be running.
+
+In the same directory as the **Dockerfile**, the following command should be executed to build the Docker image:
+
+1. Run `docker build -t tkinter_in_docker .`  
+2. Run `export DISPLAY=:0`
+3. Run `xhost +localhost`
+4. Run `docker run -e DISPLAY=host.docker.internal:0 -u=$(id -u $USER):$(id -g $USER) -v $(pwd)/db:/app/db tkinter_in_docker `
